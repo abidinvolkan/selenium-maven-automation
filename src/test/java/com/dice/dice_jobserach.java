@@ -1,5 +1,6 @@
 package com.dice;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -35,6 +36,8 @@ public static void main(String [] args) {
 	}else {
 		System.out.println("Step fail. Dice homepage failed");
 	}
+	
+	System.out.println("Test completed--"+ LocalDateTime.now());
 	}
 }
 
